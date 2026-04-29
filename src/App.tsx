@@ -155,29 +155,39 @@ export default function App() {
                     </div>
                   </div>
 
-                  <div className="bg-[#FF8A00] border-4 border-black p-6 rounded-2xl shadow-[6px_6px_0_0_#000] flex flex-col gap-4 text-white">
+                  <div className="bg-[#FF8A00] border-4 border-black p-4 rounded-2xl shadow-[6px_6px_0_0_#000] flex flex-col gap-3 text-white">
                     <h3 className="text-xs uppercase tracking-widest font-black">Connect With Me</h3>
                     
-                    <a 
-                      href="https://instagram.com/sanjith.anumola_12" 
-                      target="_blank" 
-                      className="flex items-center gap-3 bg-white text-black p-3 rounded-xl border-2 border-black hover:-rotate-1 transition-transform"
-                    >
-                      <Instagram className="w-5 h-5 text-[#FF3E81]" />
-                      <span className="font-bold text-sm">Instagram</span>
-                    </a>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <a 
+                        href="https://instagram.com/sanjith.anumola_12" 
+                        target="_blank" 
+                        className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:-rotate-1 transition-transform"
+                      >
+                        <Instagram className="w-4 h-4 text-[#FF3E81]" />
+                        <span className="font-bold text-xs uppercase">Instagram</span>
+                      </a>
 
-                    <div className="flex items-center gap-3 bg-white text-black p-3 rounded-xl border-2 border-black">
-                      <MapPin className="w-5 h-5 text-[#00C2FF]" />
-                      <span className="font-bold text-sm">Hyderabad, India 📍</span>
+                      <a 
+                        href="tel:+919381259371" 
+                        className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:rotate-1 transition-transform"
+                      >
+                        <Phone className="w-4 h-4 text-[#00E676]" />
+                        <span className="font-bold text-xs uppercase">Call Me</span>
+                      </a>
+                    </div>
+
+                    <div className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black">
+                      <MapPin className="w-4 h-4 text-[#00C2FF]" />
+                      <span className="font-bold text-xs uppercase">Hyderabad, India 📍</span>
                     </div>
 
                     <a 
-                      href="tel:+919381259371" 
-                      className="flex items-center gap-3 bg-white text-black p-3 rounded-xl border-2 border-black hover:rotate-1 transition-transform"
+                      href="mailto:sanjith.anumola@gmail.com" 
+                      className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:-rotate-1 transition-transform overflow-hidden"
                     >
-                      <Phone className="w-5 h-5 text-[#00E676]" />
-                      <span className="font-bold text-sm">9381259371</span>
+                      <Mail className="w-4 h-4 flex-shrink-0 text-[#7C3AED]" />
+                      <span className="font-bold text-xs truncate">sanjith.anumola@gmail.com</span>
                     </a>
                   </div>
                 </div>
