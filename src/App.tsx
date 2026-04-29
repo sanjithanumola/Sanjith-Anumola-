@@ -136,7 +136,7 @@ export default function App() {
             <div className="absolute -inset-2 bg-[#00FF00] border-2 border-black hidden group-hover:block transition-all"></div>
             <div className="relative bg-white border-4 border-black p-2 rounded-[2rem] shadow-[12px_12px_0_0_#000] group-hover:shadow-[4px_4px_0_0_#000] transition-all overflow-hidden">
               <img 
-                src="/developer_avatar.png" 
+                src="/input_file_1.png" 
                 alt="Sanjith Anumola Profile" 
                 className="w-full aspect-square object-cover rounded-2xl hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
