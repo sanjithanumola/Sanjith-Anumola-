@@ -136,7 +136,7 @@ export default function App() {
             <div className="absolute -inset-2 bg-[#00FF00] border-2 border-black hidden group-hover:block transition-all"></div>
             <div className="relative bg-white border-4 border-black p-2 rounded-[2rem] shadow-[12px_12px_0_0_#000] group-hover:shadow-[4px_4px_0_0_#000] transition-all overflow-hidden">
               <img 
-                src="/input_file_1.png" 
+                src="/input_file_4.png" 
                 alt="Sanjith Anumola Profile" 
                 className="w-full aspect-square object-cover rounded-2xl hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -185,17 +185,7 @@ export default function App() {
             </div>
           </motion.div>
 
-          <footer className="mt-auto pt-12 pb-6 lg:pb-0 flex flex-col md:flex-row items-center justify-between gap-4 border-t-4 border-black">
-            <div className="flex gap-4 font-black uppercase text-xs tracking-widest">
-              <span className="text-[#FF3E81]">Code</span>
-              <span>•</span>
-              <span className="text-[#7C3AED]">Design</span>
-              <span>•</span>
-              <span className="text-[#00C2FF]">Innovation</span>
-            </div>
-            <p className="font-bold text-sm">
-              Handcrafted by Sanjith © 2024
-            </p>
+          <footer className="mt-auto pt-12 pb-6 lg:pb-0 border-t-4 border-black">
           </footer>
 
         </aside>
