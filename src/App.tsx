@@ -25,6 +25,12 @@ export default function App() {
       link: "https://daily-health-guardian.vercel.app/",
       color: "bg-[#00C2FF]",
       description: "Your personal companion for tracking and improving daily health habits."
+    },
+    {
+      name: "Tic Tac Toe",
+      link: "https://tic-tac-toe-liart-alpha-24.vercel.app/",
+      color: "bg-[#FF3E81]",
+      description: "A fun and interactive classic Tic Tac Toe game with a modern touch."
     }
   ];
 
@@ -160,6 +166,15 @@ export default function App() {
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <a 
+                        href="https://github.com/sanjithanumola" 
+                        target="_blank" 
+                        className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:rotate-1 transition-transform"
+                      >
+                        <Github className="w-4 h-4 text-[#181717]" />
+                        <span className="font-bold text-xs uppercase">GitHub</span>
+                      </a>
+
+                      <a 
                         href="https://instagram.com/sanjith.anumola_12" 
                         target="_blank" 
                         className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:-rotate-1 transition-transform"
@@ -167,7 +182,9 @@ export default function App() {
                         <Instagram className="w-4 h-4 text-[#FF3E81]" />
                         <span className="font-bold text-xs uppercase">Instagram</span>
                       </a>
+                    </div>
 
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <a 
                         href="tel:+919381259371" 
                         className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black hover:rotate-1 transition-transform"
@@ -175,11 +192,11 @@ export default function App() {
                         <Phone className="w-4 h-4 text-[#00E676]" />
                         <span className="font-bold text-xs uppercase">Call Me</span>
                       </a>
-                    </div>
 
-                    <div className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black">
-                      <MapPin className="w-4 h-4 text-[#00C2FF]" />
-                      <span className="font-bold text-xs uppercase">Hyderabad, India 📍</span>
+                      <div className="flex items-center gap-2 bg-white text-black p-2 rounded-xl border-2 border-black">
+                        <MapPin className="w-4 h-4 text-[#00C2FF]" />
+                        <span className="font-bold text-xs uppercase">Hyderabad</span>
+                      </div>
                     </div>
 
                     <a 
