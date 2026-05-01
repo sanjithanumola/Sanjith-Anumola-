@@ -16,7 +16,7 @@ export default function App() {
     },
     {
       name: "Smart Notes",
-      link: "https://smart-notes-ai-pink.vercel.app/",
+      link: "https://smart-notes-ai-ecru.vercel.app/",
       color: "bg-[#FFD600]",
       description: "An AI-powered note-taking application for smarter productivity."
     },
