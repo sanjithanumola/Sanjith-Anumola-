@@ -37,6 +37,12 @@ export default function App() {
       link: "https://red-pulse-news.vercel.app/",
       color: "bg-[#FF5252]",
       description: "A global intelligence and news platform for staying updated with the world."
+    },
+    {
+      name: "Interactive Periodic Table",
+      link: "https://periodic-table-blond.vercel.app/",
+      color: "bg-[#BD00FF]",
+      description: "An educational and beautifully interactive periodic table showcasing properties of all chemical elements."
     }
   ];
 
