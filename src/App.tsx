@@ -43,6 +43,18 @@ export default function App() {
       link: "https://periodic-table-blond.vercel.app/",
       color: "bg-[#BD00FF]",
       description: "An educational and beautifully interactive periodic table showcasing properties of all chemical elements."
+    },
+    {
+      name: "Tuggable Lamp",
+      link: "https://lamp-ebon.vercel.app/",
+      color: "bg-[#FF9100]",
+      description: "A playfully realistic interactive hanging lamp experience utilizing physics-based chain interactions."
+    },
+    {
+      name: "House Build Game",
+      link: "https://house-build-game.vercel.app/",
+      color: "bg-[#05C46B]",
+      description: "A fun, block-building and structural construction game with interactive mechanics."
     }
   ];
 
