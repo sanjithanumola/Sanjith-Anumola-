@@ -55,6 +55,12 @@ export default function App() {
       link: "https://house-build-game.vercel.app/",
       color: "bg-[#05C46B]",
       description: "A fun, block-building and structural construction game with interactive mechanics."
+    },
+    {
+      name: "Lexora AI",
+      link: "https://lexora-ai-gray.vercel.app/",
+      color: "bg-[#6C5CE7]",
+      description: "An intelligent, adaptive, and highly responsive generative AI assistant companion."
     }
   ];
 
