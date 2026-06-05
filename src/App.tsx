@@ -3,10 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useState } from "react";
 import { motion } from "motion/react";
-import { Instagram, MapPin, Code2, Rocket, ExternalLink, Mail, Github, Globe, Phone } from "lucide-react";
+import { Instagram, MapPin, Code2, Rocket, ExternalLink, Mail, Github, Globe, Phone, FileText } from "lucide-react";
+import ResumeModal from "./components/ResumeModal";
 
 export default function App() {
+  const [isResumeOpen, setIsResumeOpen] = useState(false);
   const projects = [
     {
       name: "7pace Time Tracker for Azure DevOps",
@@ -67,6 +70,12 @@ export default function App() {
       link: "https://massive-multiplayer-laser-tag-omega.vercel.app/",
       color: "bg-[#00D8D6]",
       description: "An exhilarating, real-time multiplayer laser tag game built with dynamic physics and competitive mechanics."
+    },
+    {
+      name: "Gemini Slingshot",
+      link: "https://slingshot-dun-kappa.vercel.app/",
+      color: "bg-[#FF1F8E]",
+      description: "An interactive, camera-controlled experience combining real-time hand-tracking computer vision with elastic, physics-based slingshot controls."
     }
   ];
 
@@ -197,6 +206,14 @@ export default function App() {
                     </div>
                   </div>
 
+                  <button
+                    onClick={() => setIsResumeOpen(true)}
+                    className="flex items-center justify-center gap-3 w-full bg-[#7C3AED] hover:bg-[#9056FC] text-white font-black py-4 px-6 border-4 border-black rounded-2xl shadow-[6px_6px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-1 hover:translate-y-1 transition-all uppercase tracking-wider text-sm cursor-pointer"
+                  >
+                    <FileText className="w-5 h-5 stroke-[2.5]" />
+                    <span>View Interactive Resume</span>
+                  </button>
+
                   <div className="bg-[#FF8A00] border-4 border-black p-4 rounded-2xl shadow-[6px_6px_0_0_#000] flex flex-col gap-3 text-white">
                     <h3 className="text-xs uppercase tracking-widest font-black">Connect With Me</h3>
                     
@@ -264,6 +281,8 @@ export default function App() {
           ))}
         </div>
       </div>
+
+      <ResumeModal isOpen={isResumeOpen} onClose={() => setIsResumeOpen(false)} />
     </div>
   );
 }
