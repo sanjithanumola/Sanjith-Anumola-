@@ -73,6 +73,12 @@ export default function App() {
       link: "https://slingshot-dun-kappa.vercel.app/",
       color: "bg-[#FF1F8E]",
       description: "An interactive, camera-controlled experience combining real-time hand-tracking computer vision with elastic, physics-based slingshot controls."
+    },
+    {
+      name: "Lyria Rhythm",
+      link: "https://rhythm-ruddy.vercel.app/",
+      color: "bg-[#8338EC]",
+      description: "A dynamic and beautifully interactive music-making experience featuring captivating rhythm layouts and sound mechanics."
     }
   ];
 
