@@ -79,6 +79,12 @@ export default function App() {
       link: "https://rhythm-ruddy.vercel.app/",
       color: "bg-[#8338EC]",
       description: "A dynamic and beautifully interactive music-making experience featuring captivating rhythm layouts and sound mechanics."
+    },
+    {
+      name: "Run Chase!",
+      link: "https://cricket-rho-hazel.vercel.app/",
+      color: "bg-[#4CAF50]",
+      description: "An interactive, retro-styled arcade cricket run-chasing game featuring exciting physics-based hitting mechanics."
     }
   ];
 
