@@ -85,6 +85,12 @@ export default function App() {
       link: "https://cricket-rho-hazel.vercel.app/",
       color: "bg-[#4CAF50]",
       description: "An interactive, retro-styled arcade cricket run-chasing game featuring exciting physics-based hitting mechanics."
+    },
+    {
+      name: "Kinetic Canvas",
+      link: "https://kinetic-ashy.vercel.app/",
+      color: "bg-[#FF5E57]",
+      description: "An interactive visual sandbox exploring dynamic physics, organic particle motion, and kinetic gravity interactions."
     }
   ];
 
